@@ -1,0 +1,46 @@
+[0.906s] Invoking command in '/root/ros2_ws/src/sensor_program': PYTHONPATH=/root/ros2_ws/build/sensor_program/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/sensor_program/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_program build --build-base /root/ros2_ws/build/sensor_program/build install --record /root/ros2_ws/build/sensor_program/install.log --single-version-externally-managed install_data
+[1.135s] running egg_info
+[1.136s] creating ../../build/sensor_program/sensor_program.egg-info
+[1.150s] writing ../../build/sensor_program/sensor_program.egg-info/PKG-INFO
+[1.151s] writing dependency_links to ../../build/sensor_program/sensor_program.egg-info/dependency_links.txt
+[1.151s] writing entry points to ../../build/sensor_program/sensor_program.egg-info/entry_points.txt
+[1.151s] writing requirements to ../../build/sensor_program/sensor_program.egg-info/requires.txt
+[1.151s] writing top-level names to ../../build/sensor_program/sensor_program.egg-info/top_level.txt
+[1.152s] writing manifest file '../../build/sensor_program/sensor_program.egg-info/SOURCES.txt'
+[1.184s] reading manifest file '../../build/sensor_program/sensor_program.egg-info/SOURCES.txt'
+[1.185s] adding license file 'LICENSE'
+[1.185s] writing manifest file '../../build/sensor_program/sensor_program.egg-info/SOURCES.txt'
+[1.185s] running build
+[1.185s] running build_py
+[1.185s] creating /root/ros2_ws/build/sensor_program/build
+[1.186s] creating /root/ros2_ws/build/sensor_program/build/lib
+[1.186s] creating /root/ros2_ws/build/sensor_program/build/lib/sensor_program
+[1.186s] copying sensor_program/__init__.py -> /root/ros2_ws/build/sensor_program/build/lib/sensor_program
+[1.187s] copying sensor_program/plotter_node.py -> /root/ros2_ws/build/sensor_program/build/lib/sensor_program
+[1.187s] copying sensor_program/reader_node.py -> /root/ros2_ws/build/sensor_program/build/lib/sensor_program
+[1.187s] copying sensor_program/sensor_node.py -> /root/ros2_ws/build/sensor_program/build/lib/sensor_program
+[1.187s] running install
+[1.194s] running install_lib
+[1.209s] creating /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program
+[1.210s] copying /root/ros2_ws/build/sensor_program/build/lib/sensor_program/__init__.py -> /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program
+[1.210s] copying /root/ros2_ws/build/sensor_program/build/lib/sensor_program/sensor_node.py -> /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program
+[1.211s] copying /root/ros2_ws/build/sensor_program/build/lib/sensor_program/reader_node.py -> /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program
+[1.211s] copying /root/ros2_ws/build/sensor_program/build/lib/sensor_program/plotter_node.py -> /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program
+[1.211s] byte-compiling /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program/__init__.py to __init__.cpython-312.pyc
+[1.212s] byte-compiling /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program/sensor_node.py to sensor_node.cpython-312.pyc
+[1.213s] byte-compiling /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program/reader_node.py to reader_node.cpython-312.pyc
+[1.213s] byte-compiling /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program/plotter_node.py to plotter_node.cpython-312.pyc
+[1.214s] running install_data
+[1.215s] creating /root/ros2_ws/install/sensor_program/share/ament_index
+[1.215s] creating /root/ros2_ws/install/sensor_program/share/ament_index/resource_index
+[1.216s] creating /root/ros2_ws/install/sensor_program/share/ament_index/resource_index/packages
+[1.216s] copying resource/sensor_program -> /root/ros2_ws/install/sensor_program/share/ament_index/resource_index/packages
+[1.216s] copying package.xml -> /root/ros2_ws/install/sensor_program/share/sensor_program
+[1.217s] running install_egg_info
+[1.234s] Copying ../../build/sensor_program/sensor_program.egg-info to /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program-0.0.0-py3.12.egg-info
+[1.236s] running install_scripts
+[1.355s] Installing plotter_node script to /root/ros2_ws/install/sensor_program/lib/sensor_program
+[1.356s] Installing reader_node script to /root/ros2_ws/install/sensor_program/lib/sensor_program
+[1.356s] Installing sensor_node script to /root/ros2_ws/install/sensor_program/lib/sensor_program
+[1.356s] writing list of installed files to '/root/ros2_ws/build/sensor_program/install.log'
+[1.395s] Invoked command in '/root/ros2_ws/src/sensor_program' returned '0': PYTHONPATH=/root/ros2_ws/build/sensor_program/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/sensor_program/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_program build --build-base /root/ros2_ws/build/sensor_program/build install --record /root/ros2_ws/build/sensor_program/install.log --single-version-externally-managed install_data

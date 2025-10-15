@@ -1,0 +1,4 @@
+[console_scripts]
+plotter_node = sensor_program.plotter_node:main
+reader_node = sensor_program.reader_node:main
+sensor_node = sensor_program.sensor_node:main

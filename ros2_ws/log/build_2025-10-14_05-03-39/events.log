@@ -1,0 +1,65 @@
+[0.000000] (-) TimerEvent: {}
+[0.000443] (sensor_program) JobQueued: {'identifier': 'sensor_program', 'dependencies': OrderedDict()}
+[0.000592] (sensor_program) JobStarted: {'identifier': 'sensor_program'}
+[0.099337] (-) TimerEvent: {}
+[0.199699] (-) TimerEvent: {}
+[0.300025] (-) TimerEvent: {}
+[0.400324] (-) TimerEvent: {}
+[0.500561] (-) TimerEvent: {}
+[0.600898] (-) TimerEvent: {}
+[0.701325] (-) TimerEvent: {}
+[0.801625] (-) TimerEvent: {}
+[0.901880] (-) TimerEvent: {}
+[0.905322] (sensor_program) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/sensor_program', 'build', '--build-base', '/root/ros2_ws/build/sensor_program/build', 'install', '--record', '/root/ros2_ws/build/sensor_program/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ros2_ws/src/sensor_program', 'env': {'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/ros2_ws/build/sensor_program', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros2_ws/build/sensor_program/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/sensor_program/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.002140] (-) TimerEvent: {}
+[1.102443] (-) TimerEvent: {}
+[1.135764] (sensor_program) StdoutLine: {'line': b'running egg_info\n'}
+[1.136092] (sensor_program) StdoutLine: {'line': b'creating ../../build/sensor_program/sensor_program.egg-info\n'}
+[1.150765] (sensor_program) StdoutLine: {'line': b'writing ../../build/sensor_program/sensor_program.egg-info/PKG-INFO\n'}
+[1.151096] (sensor_program) StdoutLine: {'line': b'writing dependency_links to ../../build/sensor_program/sensor_program.egg-info/dependency_links.txt\n'}
+[1.151661] (sensor_program) StdoutLine: {'line': b'writing entry points to ../../build/sensor_program/sensor_program.egg-info/entry_points.txt\n'}
+[1.151870] (sensor_program) StdoutLine: {'line': b'writing requirements to ../../build/sensor_program/sensor_program.egg-info/requires.txt\n'}
+[1.151995] (sensor_program) StdoutLine: {'line': b'writing top-level names to ../../build/sensor_program/sensor_program.egg-info/top_level.txt\n'}
+[1.152111] (sensor_program) StdoutLine: {'line': b"writing manifest file '../../build/sensor_program/sensor_program.egg-info/SOURCES.txt'\n"}
+[1.184441] (sensor_program) StdoutLine: {'line': b"reading manifest file '../../build/sensor_program/sensor_program.egg-info/SOURCES.txt'\n"}
+[1.184993] (sensor_program) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.185590] (sensor_program) StdoutLine: {'line': b"writing manifest file '../../build/sensor_program/sensor_program.egg-info/SOURCES.txt'\n"}
+[1.185759] (sensor_program) StdoutLine: {'line': b'running build\n'}
+[1.185883] (sensor_program) StdoutLine: {'line': b'running build_py\n'}
+[1.185999] (sensor_program) StdoutLine: {'line': b'creating /root/ros2_ws/build/sensor_program/build\n'}
+[1.186115] (sensor_program) StdoutLine: {'line': b'creating /root/ros2_ws/build/sensor_program/build/lib\n'}
+[1.186534] (sensor_program) StdoutLine: {'line': b'creating /root/ros2_ws/build/sensor_program/build/lib/sensor_program\n'}
+[1.186878] (sensor_program) StdoutLine: {'line': b'copying sensor_program/__init__.py -> /root/ros2_ws/build/sensor_program/build/lib/sensor_program\n'}
+[1.187138] (sensor_program) StdoutLine: {'line': b'copying sensor_program/plotter_node.py -> /root/ros2_ws/build/sensor_program/build/lib/sensor_program\n'}
+[1.187387] (sensor_program) StdoutLine: {'line': b'copying sensor_program/reader_node.py -> /root/ros2_ws/build/sensor_program/build/lib/sensor_program\n'}
+[1.187614] (sensor_program) StdoutLine: {'line': b'copying sensor_program/sensor_node.py -> /root/ros2_ws/build/sensor_program/build/lib/sensor_program\n'}
+[1.187944] (sensor_program) StdoutLine: {'line': b'running install\n'}
+[1.194011] (sensor_program) StdoutLine: {'line': b'running install_lib\n'}
+[1.202642] (-) TimerEvent: {}
+[1.209801] (sensor_program) StdoutLine: {'line': b'creating /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program\n'}
+[1.210523] (sensor_program) StdoutLine: {'line': b'copying /root/ros2_ws/build/sensor_program/build/lib/sensor_program/__init__.py -> /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program\n'}
+[1.210641] (sensor_program) StdoutLine: {'line': b'copying /root/ros2_ws/build/sensor_program/build/lib/sensor_program/sensor_node.py -> /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program\n'}
+[1.211180] (sensor_program) StdoutLine: {'line': b'copying /root/ros2_ws/build/sensor_program/build/lib/sensor_program/reader_node.py -> /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program\n'}
+[1.211326] (sensor_program) StdoutLine: {'line': b'copying /root/ros2_ws/build/sensor_program/build/lib/sensor_program/plotter_node.py -> /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program\n'}
+[1.211755] (sensor_program) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program/__init__.py to __init__.cpython-312.pyc\n'}
+[1.212575] (sensor_program) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program/sensor_node.py to sensor_node.cpython-312.pyc\n'}
+[1.213245] (sensor_program) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program/reader_node.py to reader_node.cpython-312.pyc\n'}
+[1.213747] (sensor_program) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program/plotter_node.py to plotter_node.cpython-312.pyc\n'}
+[1.214769] (sensor_program) StdoutLine: {'line': b'running install_data\n'}
+[1.215118] (sensor_program) StdoutLine: {'line': b'creating /root/ros2_ws/install/sensor_program/share/ament_index\n'}
+[1.215527] (sensor_program) StdoutLine: {'line': b'creating /root/ros2_ws/install/sensor_program/share/ament_index/resource_index\n'}
+[1.216099] (sensor_program) StdoutLine: {'line': b'creating /root/ros2_ws/install/sensor_program/share/ament_index/resource_index/packages\n'}
+[1.216725] (sensor_program) StdoutLine: {'line': b'copying resource/sensor_program -> /root/ros2_ws/install/sensor_program/share/ament_index/resource_index/packages\n'}
+[1.216929] (sensor_program) StdoutLine: {'line': b'copying package.xml -> /root/ros2_ws/install/sensor_program/share/sensor_program\n'}
+[1.217164] (sensor_program) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.234467] (sensor_program) StdoutLine: {'line': b'Copying ../../build/sensor_program/sensor_program.egg-info to /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program-0.0.0-py3.12.egg-info\n'}
+[1.236381] (sensor_program) StdoutLine: {'line': b'running install_scripts\n'}
+[1.302842] (-) TimerEvent: {}
+[1.355581] (sensor_program) StdoutLine: {'line': b'Installing plotter_node script to /root/ros2_ws/install/sensor_program/lib/sensor_program\n'}
+[1.356119] (sensor_program) StdoutLine: {'line': b'Installing reader_node script to /root/ros2_ws/install/sensor_program/lib/sensor_program\n'}
+[1.356678] (sensor_program) StdoutLine: {'line': b'Installing sensor_node script to /root/ros2_ws/install/sensor_program/lib/sensor_program\n'}
+[1.356978] (sensor_program) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/build/sensor_program/install.log'\n"}
+[1.395109] (sensor_program) CommandEnded: {'returncode': 0}
+[1.402978] (-) TimerEvent: {}
+[1.413897] (sensor_program) JobEnded: {'identifier': 'sensor_program', 'rc': 0}
+[1.415096] (-) EventReactorShutdown: {}

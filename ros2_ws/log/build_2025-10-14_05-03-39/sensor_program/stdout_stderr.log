@@ -1,0 +1,44 @@
+running egg_info
+creating ../../build/sensor_program/sensor_program.egg-info
+writing ../../build/sensor_program/sensor_program.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensor_program/sensor_program.egg-info/dependency_links.txt
+writing entry points to ../../build/sensor_program/sensor_program.egg-info/entry_points.txt
+writing requirements to ../../build/sensor_program/sensor_program.egg-info/requires.txt
+writing top-level names to ../../build/sensor_program/sensor_program.egg-info/top_level.txt
+writing manifest file '../../build/sensor_program/sensor_program.egg-info/SOURCES.txt'
+reading manifest file '../../build/sensor_program/sensor_program.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/sensor_program/sensor_program.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/build/sensor_program/build
+creating /root/ros2_ws/build/sensor_program/build/lib
+creating /root/ros2_ws/build/sensor_program/build/lib/sensor_program
+copying sensor_program/__init__.py -> /root/ros2_ws/build/sensor_program/build/lib/sensor_program
+copying sensor_program/plotter_node.py -> /root/ros2_ws/build/sensor_program/build/lib/sensor_program
+copying sensor_program/reader_node.py -> /root/ros2_ws/build/sensor_program/build/lib/sensor_program
+copying sensor_program/sensor_node.py -> /root/ros2_ws/build/sensor_program/build/lib/sensor_program
+running install
+running install_lib
+creating /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program
+copying /root/ros2_ws/build/sensor_program/build/lib/sensor_program/__init__.py -> /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program
+copying /root/ros2_ws/build/sensor_program/build/lib/sensor_program/sensor_node.py -> /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program
+copying /root/ros2_ws/build/sensor_program/build/lib/sensor_program/reader_node.py -> /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program
+copying /root/ros2_ws/build/sensor_program/build/lib/sensor_program/plotter_node.py -> /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program
+byte-compiling /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program/__init__.py to __init__.cpython-312.pyc
+byte-compiling /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program/sensor_node.py to sensor_node.cpython-312.pyc
+byte-compiling /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program/reader_node.py to reader_node.cpython-312.pyc
+byte-compiling /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program/plotter_node.py to plotter_node.cpython-312.pyc
+running install_data
+creating /root/ros2_ws/install/sensor_program/share/ament_index
+creating /root/ros2_ws/install/sensor_program/share/ament_index/resource_index
+creating /root/ros2_ws/install/sensor_program/share/ament_index/resource_index/packages
+copying resource/sensor_program -> /root/ros2_ws/install/sensor_program/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/install/sensor_program/share/sensor_program
+running install_egg_info
+Copying ../../build/sensor_program/sensor_program.egg-info to /root/ros2_ws/install/sensor_program/lib/python3.12/site-packages/sensor_program-0.0.0-py3.12.egg-info
+running install_scripts
+Installing plotter_node script to /root/ros2_ws/install/sensor_program/lib/sensor_program
+Installing reader_node script to /root/ros2_ws/install/sensor_program/lib/sensor_program
+Installing sensor_node script to /root/ros2_ws/install/sensor_program/lib/sensor_program
+writing list of installed files to '/root/ros2_ws/build/sensor_program/install.log'
